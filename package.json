@@ -1,0 +1,17 @@
+{
+  "name": "codepipline-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module" 
+}
