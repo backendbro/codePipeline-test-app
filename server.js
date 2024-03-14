@@ -11,3 +11,7 @@ const server = app.listen(port, () => {
 app.get("/todos", async (req,res) => {
     res.status(200).json({success:true, message:"Hello, it works"})
 })
+
+app.get("/health", (req,res) => {
+    res.status(200).json({success:true, message: "Hello, this is a health check"})
+})
